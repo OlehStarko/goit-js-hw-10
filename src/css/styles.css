@@ -26,5 +26,10 @@ body {
 
 .country-list h2 {
   font-weight: bold;
-  font-size: 32px;
+  font-size: 46px;
+}
+
+.country-list span {
+  font-weight: bold;
+  font-size: 18px;
 }

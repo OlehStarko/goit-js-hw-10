@@ -49,9 +49,9 @@ function renderSingleCountry(countries) {
     .flatMap(
       country =>
         `<h2><img src=${country.flags.svg} alt=${country.name.official} height=32 /> ${country.name.official}</h2>
-        <p>Capital: ${country.capital}</p>
-        <p>Population: ${country.population}</p>
-        <p>Language: ${langs}</p>
+        <p><span>Capital:</span> ${country.capital}</p>
+        <p><span>Population:</span> ${country.population}</p>
+        <p><span>Language:</span> ${langs}</p>
        `
     )
     .join('');
